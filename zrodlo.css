@@ -123,13 +123,13 @@ a.active {
 
 .article a {
   text-decoration: none;
-  color: rgb(168, 168, 168);
+  color: rgb(136, 0, 0);
   font-weight: 700;
   font-size: 25px;
 }
 
 .article a:hover{
-  color: #7b0000FF;
+  color: rgb(255, 255, 255);
 }
 
 .contener {
@@ -147,7 +147,7 @@ a.active {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  color: white;
+  color: rgb(136, 0, 0);
   padding: 20px 0 20px 0;
 }
 

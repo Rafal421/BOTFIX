@@ -14,7 +14,7 @@ body {
   height: 100vh;
   background-color: black;
   z-index: 200;
-  color: white;
+  color: #7b0000ff;
   text-align: center;
   line-height: 90vh;
 }
@@ -198,6 +198,10 @@ a.active {
   font-weight: 700;
   font-size: 20px;
   
+}
+
+.article a:hover{
+  opacity: 0.5;
 }
 
 .nag h2{
