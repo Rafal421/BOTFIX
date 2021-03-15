@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="kontakt.css" />
+    <link rel="shortcut icon" href="zdj/logo.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <title>SERVICE BOTFIX</title>
+  </head>
+  <body>
+    <header>
+      <div class="inside_header">
+        <img class="logo" src="zdj/logo.svg" alt="ikony" />
+        <img src="zdj/logo4.svg" alt="background" />
+      </div>
+    </header>
+    <main>
+      <nav>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu menu" >
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="zrodlo.html">źródło</a></li>
+            <li><a href="autor.html">O Autorze</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="linki.html">Linki</a></li>
+            <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            <li class="closeMenu"><i class="fa fa-times"></i></li>
+            <li class="icons">
+              <a href="https://pl-pl.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>  
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/?lang=pl" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="./app.js"></script>
+
+      <nav>
+        <ul class="menu_ikony">
+          <li>
+            <a href="https://pl-pl.facebook.com/" target="_blank"
+              ><img src="zdj/facbook.svg" alt="facbook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="zdj/instagram.svg" alt="instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/" target="_blank"
+              ><img src="zdj/reddit.svg" alt="reddit"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/?lang=pl" target="_blank"
+              ><img src="zdj/twitter.svg" alt="twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><img src="zdj/youtube.svg" alt="youtube"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="question">
+        <h2>Skontaktuj się z nami </h2>
+      </div>
+
+      <form action="ty.html">
+        <p class="kolumny">
+            <label>
+                <span>Imię<span style="color: orange;">*</span></span>
+                <input type="text" name="Imie" placeholder="Jan" required>
+            </label>
+        
+            <label>
+              <span>Nazwisko<span style="color: orange;">*</span></span>
+              <input type="text" name="Nazwisko" placeholder="Kowalski" required>
+            </label>
+        </p>
+
+        <div class="zainteresowania">
+          <span style="margin: 0;">Płeć:</span> 
+          <br>
+          <input type="checkbox" name="man" id="Man">
+          <label for="Man">Men</label>
+          <input type="checkbox" name="Woman" id="Woman" >
+          <label for="Woman">Woman</label>
+          <input type="checkbox" name="Other" id="Other">
+          <label for="Other">Other</label>
+          <input type="checkbox" name="X" id="X">
+          <label for="X">X</label>
+        </div>
+
+        <p class="kolumny">
+            <label>
+                <span>Lat</span>
+                <input type="number" name="number" min="1" max="105" value="10">
+            </label>
+            <label>
+                <span>Marka przedmiotu</span>
+                <select name="planety">
+                    <option value="1" selected>Asus</option>
+                    <option value="1">Msi</option>
+                    <option value="1">Apple</option>
+                    <option value="1">Dell</option>
+                    <option value="1">Sony</option>
+                    <option value="1">Samsung</option>
+                    <option value="1">Lenovo</option>
+                    <option value="1">Huawei</option>
+                    <option value="1">Acer</option>
+                    <option value="1">Hp</option>
+                    <option value="1">xiaomi</option>
+                    <option value="1">inne</option>
+                </select>
+            </label>
+        </p>
+        
+        <div class="zainteresowania2">
+          <span style="margin: 0;">Zainteresowanie Serwisem:</span>
+        <p class="columny">
+            
+            <input type="checkbox" name="komputera" id="komputera" >
+            <label for="komputera">komputera</label>
+    
+            <input type="checkbox" name="Laptopa " id="Laptopa">
+            <label for="Laptopa">Laptopa</label>
+           
+            <input type="checkbox" name="Telefonu" id="Telefonu">
+            <label for="Telefonu">Telefonu</label>
+          
+            <input type="checkbox" name="Drukarki" id="Drukarki"> 
+            <label for="Drukarki">Drukarki</label>
+          
+            <input type="checkbox" name="Konsoli" id="Konsoli">
+            <label for="Konsoli">Konsoli</label>
+          
+            <input type="checkbox" name="KG" id="KG">
+            <label for="KG">Karty Graficznej</label>
+        </p>
+        </div>
+        <p>
+            <label for="wiadomosc">
+                <span>Twoja wiadomość<span style="color: orange;">*</span></span>
+                <textarea id="wiadomosc" name="wiadomosc" rows="10" cols="75" style="width: 98%; border-radius: 4px;" required></textarea>
+                <span class="xD">Wprowadz informacji dotyczącej twoejej srpawy</span>
+            </label>
+
+            <label class="checkbox">
+              <span> <input type="checkbox" name="check" required> Zapoznałem się z regulaminem rejestracji <span style="color: orange;">*</span></span>
+          </label>
+        </p>
+        
+        <div class="button">
+        <p>
+            <input type="submit" value="Wyślij">
+            <input type="reset" value="Reset">
+        </p>
+        </div>
+    </form>
+    <div class="question question-top"><h2>Miesjce docelowe firmy</h2></div>
+    <div class="map-kontakt">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d34483.26561063031!2d19.16131532312716!3d50.03039468045135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x139a40db2b1809fe!2sPowiatowe%20Centrum%20Kszta%C5%82cenia%20Technicznego%20i%20Bran%C5%BCowego.!5e0!3m2!1spl!2spl!4v1614615470538!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+    </div>  
+
+    <div class="kontakt">
+      <p>Rafał Haczek</p>
+      <p>rafal.haczek@gmail.com</p>
+      <p>+48 504 447 802</p>
+      <p>Oświecim Stanisławy Leszczyńskiej 8</p>
+    </div>
+    </main>
+
+
+    <div class="copyrights">© Copyright 2021 | All Rights Reserved.</div>
+
+    <footer>
+      <div class="position-footer">
+      <p>Rafał Haczek</p>
+      <p>rafal.haczek@gmail.com</p>
+      <p>+48 504 447 802</p>
+      <p>Oświecim Stanisławy Leszczyńskiej 8</p>
+      </div>
+    </footer>
+  </body>
+</html>
