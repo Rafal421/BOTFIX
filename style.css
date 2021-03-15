@@ -188,14 +188,13 @@ a.active {
 .article p{
   width: 95%;
   margin: 0 auto 20px auto;
-  color: rgb(37, 37, 37);
   font-weight: 800;
 
 }
 
 .article a {
   text-decoration: none;
-  color: white;
+  color: #7b0000ff;
   font-weight: 700;
   font-size: 20px;
   
